@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="/lib/css_bootstrap.min.css">
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2015/03/31/23/08/neuschwanstein-701732_1280.jpg">
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2023/11/01/11/12/hallstatt-8357170_1280.jpg">
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2018/01/12/11/55/london-3078109_1280.jpg">
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <script src="/lib/js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
